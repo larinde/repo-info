@@ -24,3 +24,31 @@
   http://127.0.0.1:7070/health
 
 ```
+
+### Request Example
+
+``` shell
+curl -X 'GET' \
+  'http://127.0.0.1:7070/api/repo/user/larinde' \
+  -H 'accept: application/json'
+
+  ```
+
+### Response
+
+``` json
+{
+  "username": "larinde",
+  "repository_count": 8,
+  "repository_names": [
+    "epayment",
+    "insight-web",
+    "investing",
+    "investing-ui",
+    "koweg-datahub",
+    "larinde.github.io",
+    "portfolio-mgr-api",
+    "repo-info"
+  ]
+}
+```
