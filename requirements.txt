@@ -1,0 +1,8 @@
+anyio==4.12.1
+uvicorn==0.22.0
+fastapi==0.133.1
+simplejson==3.20.2
+isodate==0.7.2
+urllib3==2.6.3
+starlette==0.52.1
+httpx==0.28.1
